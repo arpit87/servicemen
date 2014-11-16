@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">serviceman</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="servicelist_prompt">Choose a Service</string>
+    
+    <string-array name="servicelist_arrays">
+        <item>AC Repairer</item>
+        <item>Bike Mechanic</item>
+        <item>Car Mechanic</item>
+        <item>Civil Worker</item>
+        <item>Electrician</item>
+        <item>Fan Repairer</item>
+        <item>Painter</item>
+        <item>Plumber</item>
+    </string-array>
+    
+   <string name="locationlist_prompt">Choose a Service</string>
+    
+    <string-array name="locationlist_arrays">
+        <item>Vashi</item>
+        <item>Sanpada</item>
+        <item>Juhinagar</item>
+        <item>Nerul</item>
+        <item>Seawoods</item>
+        <item>Kharghar</item>
+        <item>CBD Belapur</item>
+        <item>Mansarovar</item>
+        <item>Panvel</item>
+    </string-array>
+    
+    
+    
+    <string name="statuslist_prompt">Choose a Service</string>
+    
+    <string-array name="statuslist_arrays">
+        <item>Available</item>
+        <item>Busy</item>
+        <item>Available in 30 Mins</item>
+        <item>Available in 1 Hour</item>
+        <item>Available in 2 Hours</item>
+        <item>Not Working Today</item>
+        <item>On Holiday</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

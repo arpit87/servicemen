@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ 	android:background="@color/red" >
+ 	
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1">    
+<LinearLayout
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical"> 	
+    <!-- Mobile No Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Mobile No"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"
+        android:textColor="#ffffffff"/>
+ 
+    <!-- Input Mobile No -->
+    <EditText android:id="@+id/inputMobNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:phoneNumber="true"
+ 		android:inputType="phone"
+ 		android:textColor="#ffffffff"
+ 		android:background="@drawable/edittext_background"/>
+    
+    <!-- Name Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Name"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"
+        android:textColor="#ffffffff"/>
+ 
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:textColor="#ffffffff"
+        android:background="@drawable/edittext_background"/>
+     
+     
+    <!-- Region Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Area of Operation"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"
+        android:textColor="#ffffffff"/>
+ 
+        <AutoCompleteTextView android:id="@+id/inputRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff"
+        android:background="@drawable/edittext_background"
+        />
+
+     
+              <!-- Skill Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Skill"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"
+        android:textColor="#ffffffff"/>
+    
+    <Spinner android:id="@+id/inputSkill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        
+        android:background="@drawable/edittext_background"
+        
+        />
+        
+ 
+    <!-- Input description -->
+    <EditText android:id="@+id/inputDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:lines="3"
+        android:gravity="top"
+        android:background="#ffffff"
+        android:hint="Description..."
+        />
+            
+    
+</LinearLayout>
+
+
+</ScrollView>
+<!-- Button Create Product -->
+    <Button 
+        android:background="@drawable/red_button"
+        android:id="@+id/btnCreateProduct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+    	style="@style/button_text"
+    	android:layout_weight="0"
+    	/>
+</LinearLayout>
